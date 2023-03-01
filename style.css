@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  padding: 0px 240px 240px 140px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #212121;
+  padding-bottom: 15px;
+  padding-top: 120px;
+}
+h2 {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #9fa3a7;
+  padding-bottom: 60px;
+}
+h3 {
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  padding-bottom: 19px;
+}
+p {
+  font-family: "OpenSans";
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+.block_left {
+  display: flex;
+  padding: 80px 95px 95px 80px;
+  flex-direction: column;
+  border-radius: 5px 0px 0px 5px;
+  align-items: center;
+}
+.block_right {
+  display: flex;
+  background: #8f75be;
+  padding: 80px 95px 95px 80px;
+  flex-direction: column;
+  border-radius: 0px 5px 5px 0px;
+  align-items: center;
+}
+.button {
+  border: 3px solid #ffc80a;
+  border-radius: 50px;
+  padding: 15px 20px;
+  background-color: none;
+  color: #000;
+  font-family: "Arvo";
+  font-style: bold;
+  font-weight: 600;
+  display: inline-block;
+}
+.-yellow {
+  color: #ffc80a;
+}
+.-violet {
+  background-color: #8f75be;
+}
+.-grey {
+  color: #9fa3a7;
+}
+.-white {
+  color: #fff;
+}
